@@ -29,5 +29,8 @@
         "targetName": "lint"
       }
     }
-  ]
+  ],
+  "release": {
+    "projectsRelationship": "independent"
+  }
 }
