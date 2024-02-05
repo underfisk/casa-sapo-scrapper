@@ -257,14 +257,6 @@ export class CasaSapoScrapper {
     this.logger.info('[setupRoutes] Configuration complete');
   }
 
-  public async stop() {
-    if (this.crawler.running) {
-      console.log("Stopping the crawlee")
-      // this.crawler.
-      // TODO
-    }
-  }
-
   public setParserTimeout(value: number) {
     this.parserTimeout = value
   }
