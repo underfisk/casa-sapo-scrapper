@@ -135,3 +135,4 @@ export type ScrappedRow = {
     energeticCertification?: string | null;
     constructionYear?: number | null;
 };
+

@@ -1,6 +1,6 @@
 {
   "name": "casa-sapo-scrapper",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "license": "MIT",
   "author": {
     "name": "underfisk",
@@ -18,12 +18,17 @@
     "test": "nx test"
   },
   "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "crawlee": ">= 3.7.3",
+    "pino": ">= 8.18.0",
+    "playwright": ">=1.41.2"
+  },
+  "devDependencies": {
     "crawlee": "^3.7.3",
     "pino": "^8.18.0",
     "playwright": "^1.41.2",
-    "tslib": "^2.3.0"
-  },
-  "devDependencies": {
     "@nx/eslint": "18.0.1",
     "@nx/eslint-plugin": "18.0.1",
     "@nx/js": "18.0.1",
