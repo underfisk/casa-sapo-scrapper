@@ -25,9 +25,10 @@
       }
     },
     "publish": {
-      "executor": "nx:run-commands",
+      "executor": "@nx/js:release-publish",
       "options": {
-        "command": "node tools/scripts/publish.mjs casa-sapo-scrapper {args.ver}"
+        "packageRoot": "dist/casa-sapo-scrapper",
+        "dryRun": false
       },
       "dependsOn": ["^build"]
     }
