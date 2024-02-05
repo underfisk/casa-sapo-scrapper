@@ -32,7 +32,7 @@ export class CasaSapoScrapper {
     /**
      * Accepts a valid pino logger instance
      */
-    private readonly logger: Logger = defaultLogger,
+    private readonly logger: Logger<any> = defaultLogger,
     private readonly options?: SafePlaywrightCrawlerOptions
   ) {
     if (typeof onRowScrapped === 'object' && !!onRowScrapped['handler']) {
