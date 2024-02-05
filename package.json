@@ -2,6 +2,17 @@
   "name": "casa-sapo-scrapper",
   "version": "1.1.0",
   "license": "MIT",
+  "author": {
+    "name": "underfisk",
+    "url": "https://github.com/underfisk/casa-sapo-scrapper"
+  },
+  "description": "A casa sapo scrapper built with crawlee and playwright (framework agnostic)",
+  "keywords": [
+    "scrapper",
+    "casa-sapo",
+    "playwright",
+    "real-estate"
+  ],
   "scripts": {
     "build": "nx build",
     "test": "nx test"
