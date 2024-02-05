@@ -1,11 +1,10 @@
 {
   "name": "casa-sapo-scrapper",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
-    "test": "nx test",
-    "publish": "nx release publish"
+    "test": "nx test"
   },
   "dependencies": {
     "crawlee": "^3.7.3",
